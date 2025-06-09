@@ -1,5 +1,5 @@
 {
-  "name": "dsa-ide",
+  "name": "dsa-ide-saas",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,12 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/nextjs": "^4.29.9",
     "@monaco-editor/react": "^4.7.0",
+    "@supabase/supabase-js": "^2.39.7",
     "axios": "^1.9.0",
+    "lucide-react": "^0.344.0",
     "next": "15.3.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-resizable": "^3.0.5",
+    "socket.io-client": "^4.7.4",
     "vm": "^0.1.0"
   },
   "devDependencies": {
